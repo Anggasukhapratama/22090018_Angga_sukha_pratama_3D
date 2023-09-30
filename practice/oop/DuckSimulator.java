@@ -25,7 +25,7 @@ public class DuckSimulator {
             int pilihan = scanner.nextInt();
 
             if (pilihan == 0) {
-                System.out.println("Terima kasih. Keluar dari program.");
+                System.out.println("Anda Keluar dari program !!");
                 break;
             }
 
@@ -45,7 +45,7 @@ public class DuckSimulator {
                     duck = new ModelDuck();
                     break;
                 default:
-                    System.out.println("Pilihan yang Anda masukkan tidak valid");
+                    System.out.println("Pilihan yang Anda masukkan tidak ada");
             }
 
             if (duck != null) {
